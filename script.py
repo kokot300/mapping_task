@@ -104,4 +104,5 @@ def download_from_api():
         time.sleep(300)
 
 
-download_from_api()
+if __name__ == '__main__':
+    download_from_api()
