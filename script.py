@@ -7,9 +7,6 @@ from requests import get
 from models import HeaderSection, TitleSection, LeadSection, TextSection, ImageSection, MediaSection, Article
 
 
-# Create your views here.
-
-
 def download_from_api():
     while True:
         LIST_URL = 'https://mapping-test.fra1.digitaloceanspaces.com/data/list.json'
